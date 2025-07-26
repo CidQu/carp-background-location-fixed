@@ -9,7 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  background_locator_2: ^2.0.6
+  background_locator_2:
+  git:
+    url: https://github.com/sultan18kh/background_locator_2_gradle_migration.git
+    ref: fix/gradle-compatibility
 
 dev_dependencies:
   flutter_test:
